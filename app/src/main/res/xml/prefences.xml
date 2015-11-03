@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="@string/pref_openmode"
+        android:summary="@string/pref_openmode_summary"
+        android:title="@string/pref_openmode_title"/>
+    <EditTextPreference
+        android:defaultValue="14"
+        android:dialogTitle="@string/pref_size_title"
+        android:key="@string/pref_size"
+        android:summary="@string/pref_size_summary"
+        android:title="@string/pref_size_title" />
+    <ListPreference
+        android:key="@string/pref_style"
+        android:title="@string/pref_style"
+        android:summary="@string/pref_style_summary"
+        android:defaultValue="1"
+        android:entries="@array/text_style"
+        android:entryValues="@array/text_style"
+        android:dialogTitle="@string/pref_style_dialog"/>
+
+</PreferenceScreen>

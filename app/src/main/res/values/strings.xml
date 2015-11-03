@@ -1,4 +1,25 @@
 <resources>
     <string name="app_name">L25Notepad</string>
     <string name="action_settings">Settings</string>
+    <string name="action_open">Open</string>
+    <string name="action_save">Save</string>
+    <string name="pref_openmode">Opening mode</string>
+    <string name="pref_openmode_summary">Open file with start app</string>
+    <string name="pref_openmode_title">Open</string>
+    <string name="pref_color">Color</string>
+    <string name="pref_color_black">Black </string>
+    <string name="pref_color_red">Red</string>
+    <string name="pref_color_green">Green</string>
+    <string name="pref_color_blue">Blue</string>
+    <string name="pref_size">Size</string>
+    <string name="pref_style">Style</string>
+    <string name="pref_style_regular">Regular</string>
+    <string name="pref_style_bold">Bold</string>
+    <string name="pref_style_italic">Italic</string>
+    <string name="pref_style_italic_bold">Bold+Italic</string>
+    <string name="action_settings_own">Settings font</string>
+    <string name="pref_size_title">Insert size font (from 10 to 32)</string>
+    <string name="pref_size_summary">Inserted a new size font</string>
+    <string name="pref_style_summary">Font style</string>
+    <string name="pref_style_dialog">Choose font style</string>
 </resources>
